@@ -28,4 +28,4 @@ jobs:
         with:
           push: true
           file: ./client/Dockerfile
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/senhas-server:1.0.{{ github.run_number }}
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/senhas-server:{{ github.run_number }}
